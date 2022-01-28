@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/af86d45df6.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+
+        <header class="header">
+            <h1 class="header__title"><i class="fas fa-sun"></i>Weather App</h1>
+            <p class="header__text">Check weather for your city with this brand new APP</p>
+        </header>
+
+        <section class="main__input">
+
+            <div class="main__input-city">
+
+                <label class="city" for="city-input">London</label>
+                <input type="text" name="city" id="city-input" class="user-input">
+                <button type="submit" class="check-btn">Check</button>
+            </div>
+
+        </section>
+
+        <div class="temp data">
+            <h2>temperature</h2>
+            <p><span class="temp-span"></span>°C</p>
+        </div>
+        <div class="feel data">
+            <h2>feels like</h2>
+            <p><span class="feel-span">10</span>°C</p>
+        </div>
+        <div class="clouds data">
+            <h2>Sky</h2>
+            <p><span class="clouds-span"><i class="fas fa-cloud"></i></span></p>
+        </div>
+        <div class="humid data"><h2>Humidity</h2><p><span class="humid-span">70</span>%</p></div>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
