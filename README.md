@@ -6,6 +6,6 @@ You can check out the app here [WeatherApp](https://wonski312.github.io/weatherA
 
 **Features:**
 
--fetch API 
--Grid layout
--style files for different categories
+- fetch API 
+- Grid layout
+- style files for different categories
