@@ -71,3 +71,14 @@ const showWeather = () => {
 showWeather();
 
 checkBtn.addEventListener("click", showWeather);
+userInput.addEventListener('keyup',function (e){
+
+	if (e.keyCode == 13){
+		console.log(e.keyCode);
+		showWeather();
+
+	}
+	
+	
+	
+})
